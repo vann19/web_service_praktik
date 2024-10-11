@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  animated_text_kit: ^4.2.1 # versi terbaru, bisa disesuaikan
   flutter:
     sdk: flutter
 
@@ -59,7 +60,13 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - asset/img/agus.jpeg
-    # - asset/img/OIP.jpeg
+    - asset/img/login.jpg
+    - asset/img/banner.webp
+    - asset/img/nasi-ayam.jpeg
+    - asset/img/nasi-rendang.jpeg
+    - asset/img/gulai-cincang.jpeg
+    - asset/img/avatar.png
+    # - asset/img/login.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

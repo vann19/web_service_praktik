@@ -18,6 +18,7 @@ import 'materi_5/gridview_count.dart';
 import 'materi_5/gridviewExtend.dart';
 import 'materi_6/navigator_push&pop.dart';
 import 'materi_6/pengunaanNavigator_pushReplacement.dart';
+import 'components/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -262,6 +263,19 @@ class HomePage extends StatelessWidget {
                   );
                 },
                 child: const Text('Pengunaan Navigator push Replacement'),
+              ),
+
+              const SizedBox(height: 20.0),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            const LoginScreen()),
+                  );
+                },
+                child: const Text('Tugas'),
               ),
             ],
           ),
